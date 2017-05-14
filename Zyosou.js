@@ -3,7 +3,7 @@ var Tb = document.getElementsByClassName('autosuggest-textarea__textarea');
 function OBWC() {
     var input = Tb[0].value;
 
-    if (input.match('w' || 'W' || '‘' || '‚—' || '‚v' || 'LOL' || 'lol' || '‚k‚n‚k' || '‚Œ‚‚Œ' ||'‘å‘Œ´')) {
+    if (input.match('w' || 'W' /*|| 'è‰' || 'ï½—' || 'ï¼·' || 'LOL' || 'lol' || 'ï¼¬ï¼¯ï¼¬' || 'ï½Œï½ï½Œ' ||'å¤§è‰åŸ'*/)) {
 
         alert('NG Word Check Please');
 
