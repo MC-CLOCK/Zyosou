@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Zyosou",
+  "version": "1.1",
+
+  "description": "Wara Wo BokumetuSaserutameni",
+  "permissions": ["*://mastodon.cloud/*"],
+
+  "icons": {
+    "48": "icon/CSNWICON.ico"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://mastodon.cloud/*"],
+      "js": ["Zyosou.js"]
+    }
+  ]
+
+}
